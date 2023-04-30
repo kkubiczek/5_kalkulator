@@ -1,9 +1,9 @@
 'use strict';
 
-function calc() {
+const calc = (e) => {
     // console.log(this.innerText);
 
-    const buttonValue = this.innerText;
+    const buttonValue = e.target.innerText;
 
     const resPlace = document.querySelector('#res');
 
